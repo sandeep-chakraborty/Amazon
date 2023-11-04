@@ -44,12 +44,13 @@ a {
 .add-fir {
   color: #cccccc;
   font-size: 0.85rem;
-  margin-left: 15px;
+  margin-left: 20px;
 }
 .add-sec {
   color: #cccccc;
   font-size: 1rem;
   margin-left: 3px;
+  font-weight: 700;
 }
 
 .nav-search {
@@ -58,10 +59,12 @@ a {
   height: 40px;
   border-radius: 4px;
   justify-content: space-evenly;
+  border: 2px solid transparent;
 }
-/* .nav-search:hover{
-    border: 1px solid orange;
-} */
+.nav-search:hover{
+    border: 2px solid orange;
+    border-radius:4px ;
+}
 .search-select {
   background-color: #f3f3f3;
   text-align: center;
@@ -86,6 +89,7 @@ a {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
   color: rgb(19, 25, 33);
+  cursor: pointer;
 }
 
 .nav-1 {
@@ -176,6 +180,7 @@ a {
   background-size: cover;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  background-position: center;
 }
 .box-content {
   margin-left: 1rem;
@@ -190,6 +195,7 @@ a {
   background-size: cover;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  background-position: center;
 }
 .box3-img {
   background-image: url("img/box3_image.jpg");
@@ -197,6 +203,7 @@ a {
   background-size: cover;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  background-position: center;
 }
 .box4-img {
   background-image: url("img/box4_image.jpg");
@@ -204,6 +211,7 @@ a {
   background-size: cover;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  background-position: center;
 }
 .box5-img {
   background-image: url("img/box5_image.jpg");
@@ -218,6 +226,7 @@ a {
   background-size: cover;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  background-position: center;
 }
 .box7-img {
   background-image: url("img/box7_image.jpg");
@@ -225,6 +234,8 @@ a {
   background-size: cover;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  background-position: center;
+
 }
 .box8-img {
   background-image: url("img/box8_image.jpg");
@@ -232,6 +243,8 @@ a {
   background-size: cover;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  background-position: center;
+
 }
 
 /* Footer */
@@ -298,3 +311,11 @@ ul p {
 .foot-opt a {
   padding: 10px;
 }
+::-webkit-scrollbar {
+  width: 0;
+}
+
+
+::-webkit-scrollbar-thumb {
+  width: 0;
+} 
